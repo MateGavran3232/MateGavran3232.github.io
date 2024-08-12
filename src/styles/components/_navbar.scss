@@ -1,0 +1,38 @@
+.navbar {
+  width: 100%;
+  background-color: var(--primary-background);
+  min-height: var(--size-50);
+  display: flex;
+  position: relative;
+  padding:  var(--size-16) 0;
+  transition: background-color 0.25s linear, border 0.25s linear;
+  &__logo {
+    height: var(--size-50);
+    width: var(--size-160);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    translate: 0 -50%;
+  }
+
+  &__hamburger-menu-wrapper {
+    position: absolute;
+    right: var(--size-20);
+    top: 50%;
+    translate: 0 -50%;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 0 var(--size-2);
+    &--open {
+        border: 1px solid black;
+    }
+  }
+
+  &__hamburger-menu {
+    margin-top: var(--size-3);
+  }
+
+  &--open {
+    background-color: white;
+  }
+}

@@ -1,0 +1,12 @@
+// Phone - below 576px
+$breakpoint-phone: 36em !default;
+// Tablet landscape - 768px - 992px
+$breakpoint-tab-land: 48em !default;
+// Desktop 992px - 1200px
+$breakpoint-desktop: 62em !default;
+// Large desktops 1200px - 1920px
+$breakpoint-big-desktop: 75em !default;
+// Extra large desktops 1920px +
+$breakpoint-extra-big-desktop: 120em !default;
+
+$typography-sizes: xxxl, xxl, xl, l, m, s, xs, xxs;
